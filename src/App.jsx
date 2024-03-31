@@ -14,12 +14,12 @@ function App() {
           <Hero />
         </div>
         <About />
-        <Experience />
+        {/* <Experience /> education */}
         <Tech />
-        <Works />
-        <Feedbacks />
+        <Works /> {/* project */}
+        {/* <Feedbacks /> */}
         <div className='relative z-0'>
-          <Contact />
+          <Contact /> 
           <StarsCanvas />
         </div>
       </div>

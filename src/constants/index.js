@@ -1,5 +1,6 @@
 import {
     mobile,
+    dbms,
     backend,
     creator,
     web,
@@ -23,8 +24,11 @@ import {
     jobit,
     tripguide,
     threejs,
+    cpp,
+    movieVerse,
+    MegaBlog,
   } from "../assets";
-  
+
   export const navLinks = [
     {
       id: "about",
@@ -32,7 +36,7 @@ import {
     },
     {
       id: "work",
-      title: "Work",
+      title: "Projects",
     },
     {
       id: "contact",
@@ -42,21 +46,25 @@ import {
   
   const services = [
     {
-      title: "Web Developer",
-      icon: web,
-    },
-    {
-      title: "React Native Developer",
-      icon: mobile,
-    },
-    {
-      title: "Backend Developer",
-      icon: backend,
-    },
-    {
-      title: "Content Creator",
+      title: "Specialist On Codeforces",
       icon: creator,
+      link: "https://codeforces.com/profile/shivaay2210"
     },
+    {
+      title: "Knight On Leetcode",
+      icon: mobile,
+      link: "https://leetcode.com/_shivaay_/"
+    },
+    {
+      title: "4 star On CodeChef",
+      icon: web,
+      link: "https://www.codechef.com/users/madhav1729"
+    },
+    {
+      title: "Web Developer",
+      icon: backend,
+      link: "https://github.com/shivaay2210"
+    }
   ];
   
   const technologies = [
@@ -73,9 +81,13 @@ import {
       icon: javascript,
     },
     {
-      name: "TypeScript",
-      icon: typescript,
+      name: "C++",
+      icon: cpp,
     },
+    // {
+    //   name: "DBMS",
+    //   icon: dbms,
+    // },
     {
       name: "React JS",
       icon: reactjs,
@@ -103,15 +115,7 @@ import {
     {
       name: "git",
       icon: git,
-    },
-    {
-      name: "figma",
-      icon: figma,
-    },
-    {
-      name: "docker",
-      icon: docker,
-    },
+    }
   ];
   
   const experiences = [
@@ -198,67 +202,63 @@ import {
   
   const projects = [
     {
-      name: "Car Rent",
+      name: "MovieVerse",
       description:
-        "Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for transportation needs.",
+        "Developed a visually captivating movie website using HTML, CSS and JavaScript, showcasing front end design skills.",
+      tags: [
+        {
+          name: "HTML",
+          color: "blue-text-gradient",
+        },
+        {
+          name: "CSS",
+          color: "green-text-gradient",
+        },
+        {
+          name: "JavaScript",
+          color: "pink-text-gradient",
+        },
+      ],
+      image: movieVerse,         
+      source_code_link: "https://github.com/shivaay2210/MovieVerse",
+    },
+    {
+      name: "MegaBlog",
+      description:
+        "A Mega Blog Project build using React, Redux Toolkit(RTK), Tailwind CSS and appwrite as backend.",
       tags: [
         {
           name: "react",
           color: "blue-text-gradient",
         },
         {
-          name: "mongodb",
+          name: "appwrite",
           color: "green-text-gradient",
         },
         {
-          name: "tailwind",
+          name: "tailwind-css",
           color: "pink-text-gradient",
         },
       ],
-      image: carrent,
-      source_code_link: "https://github.com/",
+      image: MegaBlog,
+      source_code_link: "https://github.com/shivaay2210/React-Learning/tree/main/MegaBlog",
     },
     {
-      name: "Job IT",
+      name: "Todo",
       description:
-        "Web application that enables users to search for job openings, view estimated salary ranges for positions, and locate available jobs based on their current location.",
+        " Implemented local storage functionality to store and retrieve task data, ensuring persistent data storage and a seamless user experience across multiple sessions.",
       tags: [
         {
-          name: "react",
+          name: "React",
           color: "blue-text-gradient",
         },
         {
-          name: "restapi",
+          name: "Tailwind CSS",
           color: "green-text-gradient",
-        },
-        {
-          name: "scss",
-          color: "pink-text-gradient",
-        },
-      ],
-      image: jobit,
-      source_code_link: "https://github.com/",
-    },
-    {
-      name: "Trip Guide",
-      description:
-        "A comprehensive travel booking platform that allows users to book flights, hotels, and rental cars, and offers curated recommendations for popular destinations.",
-      tags: [
-        {
-          name: "nextjs",
-          color: "blue-text-gradient",
-        },
-        {
-          name: "supabase",
-          color: "green-text-gradient",
-        },
-        {
-          name: "css",
-          color: "pink-text-gradient",
         },
       ],
       image: tripguide,
-      source_code_link: "https://github.com/",
+      source_code_link: "https://github.com/shivaay2210/React-Learning/tree/main/10todoContextLocalStorage",
     },
   ];
   

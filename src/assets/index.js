@@ -30,7 +30,13 @@ import carrent from "./carrent.png";
 import jobit from "./jobit.png";
 import tripguide from "./tripguide.png";
 
+import cpp from "./tech/cpp.png";
+import dbms from "./tech/dbms.jpg";
+import MegaBlog from "./MegaBlog.jpg";
+import movieVerse from "./movieVerse.jpg";
+
 export {
+  movieVerse, MegaBlog,
   logo,
   backend,
   creator,
@@ -44,6 +50,8 @@ export {
   figma,
   git,
   html,
+  cpp,
+  dbms,
   javascript,
   mongodb,
   nodejs,
